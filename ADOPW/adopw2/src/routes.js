@@ -5,6 +5,7 @@ import Erro from './pages/Erro';
 import Home from './pages/Home';
 import Sobre from './pages/Sobre';
 import Header from './components/Header';
+import Loja from './pages/Loja';
 
 
 function RouterApp(props) {
@@ -14,6 +15,7 @@ function RouterApp(props) {
  <Routes>
  <Route path="/" element={<Home texto={props.texto}  />} />
  <Route path="/sobre" element={<Sobre />} />
+ <Route path='/loja' element={<Loja/>}/>
  <Route path='*' element={<Erro/>} />
  </Routes>
  </BrowserRouter>
