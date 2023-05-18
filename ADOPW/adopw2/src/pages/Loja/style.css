@@ -1,0 +1,21 @@
+.titulo-loja{
+    
+    text-align: center;
+
+}
+
+.divimagens img{
+   height: 100;
+   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+   border: 3px solid black;
+   margin: 10px;
+  
+}
+
+.divimagens {
+   font-size: 25px;
+   
+   text-align: center;
+   
+}
+  
